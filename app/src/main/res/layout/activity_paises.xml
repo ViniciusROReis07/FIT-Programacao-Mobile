@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tit_nome_pais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do pais" />
+
+    <EditText
+        android:id="@+id/camp_nome_pais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tit_localizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Localizacao" />
+
+    <EditText
+        android:id="@+id/camp_localizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tit_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area (Km2)" />
+
+    <EditText
+        android:id="@+id/camp_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tit_habitantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de Habitantes" />
+
+    <EditText
+        android:id="@+id/camp_idioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tit_banderia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/image_bandeira"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tit_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/image_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+</LinearLayout>

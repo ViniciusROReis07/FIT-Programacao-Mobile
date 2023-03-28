@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensagem_login" />
+
+    <TextView
+        android:id="@+id/txt_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario:" />
+
+    <EditText
+        android:id="@+id/campo_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Informar o Nome do Usuario"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Password:" />
+
+    <EditText
+        android:id="@+id/campo_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Informar o Password do Usuario"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/img_sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sala" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/msg_op"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/txt_msg_Op"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_tela_inicial"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/txt_btn_TelaInicial" />-->
+
+
+</LinearLayout>
